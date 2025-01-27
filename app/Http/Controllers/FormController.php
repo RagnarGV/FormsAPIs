@@ -17,10 +17,7 @@ class FormController extends Controller
         $form->form_name = $request->form_name;
         $form->form_data = $request->form_data;
         $form->save();
-        // FormsModal::create([
-        //     'form_name' => $request->form_name,
-        //     'form_data' => $request->form_data
-        // ]);
+
         return response()->json(['success' => $request->post()]);
     }
 
@@ -32,10 +29,7 @@ class FormController extends Controller
         $form->user_id = $request->user_id;
         $form->form_data = $request->form_data;
         $form->save();
-        // FormsModal::create([
-        //     'form_name' => $request->form_name,
-        //     'form_data' => $request->form_data
-        // ]);
+
         return response()->json(['success' => $request->post()]);
     }
 
