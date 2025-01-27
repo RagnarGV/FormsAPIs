@@ -39,3 +39,10 @@ This API is designed to handle form data from a React.js frontend, enabling seam
     ```bash
     git clone <repository-url>
     ```
+2. composer install:
+
+````bash
+ composer install
+
+   ```
+````
