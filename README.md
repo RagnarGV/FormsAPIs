@@ -48,4 +48,6 @@ This API is designed to handle form data from a React.js frontend, enabling seam
    ```
 ````
 
-3. Add your MongoDB URI to .env before the first install.
+3. Add your MongoDB URI to .env before the first start.
+
+4. `php artisan serve`
