@@ -17,3 +17,4 @@ Route::get('/list', [FormController::class, 'listForms']);
 Route::get('/sanctum/csrf-cookie', function () {
     return response()->json(['csrfToken' => csrf_token()]);
 });
+Route::post('submitForm', [FormController::class, 'submitForm']); // optional endpoint to save the form data.
